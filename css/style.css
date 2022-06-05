@@ -1,0 +1,122 @@
+body{
+  font-family: 'Aldrich', sans-serif;
+  background-image: url("../img/bg.png");
+}
+
+h1{
+  border: solid;
+  border-color: #F44336;
+}
+
+.instalogo{
+  padding: 8px;
+}
+
+.modaldiscord{
+  width: 500px;
+}
+.ancrenav:hover{
+  background:#F44336 !important;
+}
+
+.titresprojets{
+  font-size: 200% !important;
+}
+
+.headermodalprojets{
+  font-size: 150% !important;
+}
+.imgheadermodalprojets{
+  padding-right: 10px !important;
+}
+.modalCommun{
+  width: 500px !important;
+}
+.textmodalprojets{
+  font-size: 130% !important;
+}
+
+
+.modalfooter{
+  background: linear-gradient(#666666, #333333) !important;
+}
+.textareamodalfooter{
+  resize: vertical !important;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #999999;
+    border: 31px none #ffffff;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #a3a3a3;
+}
+::-webkit-scrollbar-track {
+    background: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #f2f2f2;
+}
+::-webkit-scrollbar-track:active {
+    background: #f5f5f5;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttoneg{
+  border: none!important;
+  margin: 0!important;
+  padding: 0!important;
+  width: auto!important;
+  overflow: visible!important;
+
+  background: transparent!important;
+
+  /* inherit font & color from ancestor */
+  color: inherit!important;
+  font: inherit!important;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal!important;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit!important;
+  -moz-osx-font-smoothing: inherit!important;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none!important;
+}
